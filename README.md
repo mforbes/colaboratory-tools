@@ -9,7 +9,9 @@ To use, add and execute the following cell in your Colaboratory
 document:
 
 ```bash
-!pip install git+git@github.com:mforbes/colaboratory-tools.git
+# Run this cell to install some useful packages for working with collaboratory
+# See https://github.com/mforbes/colaboratory-tools for details
+!pip install git+git://github.com/mforbes/colaboratory-tools.git
 ```
 
 Then you can import and use the various tools.
